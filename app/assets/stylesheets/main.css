@@ -2,6 +2,17 @@ img {
     width: 300px;
 }
 
-.btn {
+.btn a {
     text-decoration: none;
+    color: #ffff;
+} 
+
+.btn a :visited {
+    text-decoration: none;
+    color: #ffff;
+} 
+
+.btn a :hover {
+    text-decoration: none;
+    color: #ffff;
 } 
