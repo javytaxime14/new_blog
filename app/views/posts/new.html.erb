@@ -1,0 +1,15 @@
+<h1 class="mt-3 mb-4">Create a new post</h1>
+
+<form method="get" action="/posts/create" id="create_posts">
+    <label for="title">Titulo</label>
+    <input name="title" class="form-control">
+
+    <label for="image_url">Imagen</label>
+    <input type="text" name="image_url" class="form-control">
+
+    <label for="content">Contenido</label>
+    <textarea name="content" class="form-control"></textarea>
+    
+    <button type= "submit"class="btn btn-danger btn-sm mt-3">Enviar</button>
+    <button type= "button"class="btn btn-dark btn-sm mt-3 text-decoration-none"><%= link_to 'Back', root_path %></button>
+</form>
