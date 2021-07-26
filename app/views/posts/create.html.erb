@@ -8,7 +8,7 @@
                 <li><%= error %></li>
             <% end %>
             </ul>
-            <%= link_to 'Back', posts_new_path %>
+            <button type= "button"class="btn btn-dark btn-sm mt-3"><%= link_to 'Back', posts_new_path %></button>
         </div>
         <% else %>
         <strong>Título:</strong>
@@ -20,7 +20,7 @@
         <strong>Fecha creación:</strong>
         <p><%= @post.created_at %></p>
 
-        <%= link_to 'Back', root_path %>
+        <button type= "button"class="btn btn-dark btn-sm mt-3"><%= link_to 'Back', root_path %></button>
     <% end %>
 
 </div>
